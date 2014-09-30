@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/settings_GPSAccuracy"
+        android:entryValues="@array/settings_GPSAccuracy_values"
+        android:key="GPSAccuracy"
+        android:summary="Best accuracy provides most accurate GPS info, but consumes more battery."
+        android:title="GPS Accuracy" />
+    <ListPreference
+        android:defaultValue="english"
+        android:entries="@array/settings_language_support"
+        android:entryValues="@array/settings_input_language_values"
+        android:key="LanguageSupport"
+        android:summary="How would you like to talk to RSVP?"
+        android:title="Language Support" />
+    <ListPreference
+        android:defaultValue="voice"
+        android:entries="@array/inputMode"
+        android:entryValues="@array/inputModeValues"
+        android:key="InputMode"
+        android:summary="Voice input or Keyborad?"
+        android:title="Input Mode" />
+
+</PreferenceScreen>

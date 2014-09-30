@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>686CF0A8-2F63-4CA3-AE62-14F596A6912D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProductIOSClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0D4F8A3-D176-4B44-855A-BB1DEF66EE02</key>
+		<string>http://m160.cs.uwaterloo.ca:18080/svn/ios/trunk/ProductIOSClient</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProductIOSClient.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0D4F8A3-D176-4B44-855A-BB1DEF66EE02</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E0D4F8A3-D176-4B44-855A-BB1DEF66EE02</key>
+		<string>http://m160.cs.uwaterloo.ca:18080/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://m160.cs.uwaterloo.ca:18080/svn/ios/trunk/ProductIOSClient/ProductIOSClient.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0D4F8A3-D176-4B44-855A-BB1DEF66EE02</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk/ProductIOSClient/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0D4F8A3-D176-4B44-855A-BB1DEF66EE02</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProductIOSClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>

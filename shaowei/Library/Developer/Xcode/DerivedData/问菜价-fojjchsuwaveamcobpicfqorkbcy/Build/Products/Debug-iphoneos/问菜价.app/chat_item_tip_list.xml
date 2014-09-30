@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/user_chat_bg"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/show_hide_tip_list_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/button_bg" >
+		
+        <ImageView
+            android:id="@+id/show_hide_tip_list_arrow_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/show_arrow_drawable" />
+
+        <TextView
+            android:id="@+id/tip_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/show_hide_tip_list_arrow_view"
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_text_size"
+            android:text="@string/help_tip_title" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/tip_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+
+    </ListView>
+
+</LinearLayout>
